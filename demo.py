@@ -4,12 +4,12 @@ import pickle
 from tensorflow.keras.models import load_model
 from tensorflow.keras.utils import pad_sequences
 
-model1 = load_model("Basic_model.h5")
-with open('Basic_tokenizer.pickle', 'rb') as handle:
+model1 = load_model("models/Basic_model.h5")
+with open('tokenizers/Basic_tokenizer.pickle', 'rb') as handle:
     token1 = pickle.load(handle)
 
-model2 = load_model("LSTM_model.h5")
-with open('LSTM_tokenizer.pickle', 'rb') as handle:
+model2 = load_model("models/LSTM_model.h5")
+with open('tokenizers/LSTM_tokenizer.pickle', 'rb') as handle:
     token2 = pickle.load(handle)
 
 st.title("Sarcasm Detection Model")

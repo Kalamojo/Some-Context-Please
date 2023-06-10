@@ -17,7 +17,7 @@ def filt(line, q):
 
 sarcastic = []
 ind = 0
-with open('reddit_generated_sarcastic.txt', 'r', encoding="utf8") as f:
+with open('data/reddit_generated_sarcastic.txt', 'r', encoding="utf8") as f:
     for line in f:
         line = bytes(line, 'utf-8').decode('utf-8', 'ignore')[:-1]
         if line[:7] == "Title: ":
@@ -33,7 +33,7 @@ with open('reddit_generated_sarcastic.txt', 'r', encoding="utf8") as f:
 
 sar_len = len(sarcastic)
 
-with open('reddit_wild_sincere.txt', 'r', encoding="utf8") as f:
+with open('data/reddit_wild_sincere.txt', 'r', encoding="utf8") as f:
     serious_org = [name.rstrip() for name in f.read().split('--------------------')][:-1]
 
 serious_list1 = random.sample(serious_org, sar_len)
@@ -103,7 +103,7 @@ model.save("LSTM_model.h5")
 # Testing Set
 #############
 
-with open('reddit_wild_sarcastic.txt', 'r', encoding="utf8") as f:
+with open('data/reddit_wild_sarcastic.txt', 'r', encoding="utf8") as f:
     sarcastic = [filt(name, "/s").rstrip() for name in f.read().split('--------------------')][:-1]
     sarcastic = sarcastic[:2000]
 
