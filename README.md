@@ -1,6 +1,6 @@
 # Some Context, Please?
 
-Sarcasm Detection Model
+Sarcasm Detection Model (the Demo of which can be found [HERE](https://some-context-please.streamlit.app/))
 
 ## Background
 
