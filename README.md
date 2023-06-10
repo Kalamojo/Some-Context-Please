@@ -23,9 +23,10 @@ As a result of the nature of sarcastic text, identical sentences made in differe
 
 > Word cloud from r/politics comments
 
-![alt text](https://github.com/Kalamojo/Some-Context-Please/blob/main/images/politics_sarcastic.png?raw=true)
 
-![alt text](https://github.com/Kalamojo/Some-Context-Please/blob/main/images/politics_sincere.png?raw=true)
+Politics Sarcastic         |  Politics Sincere
+:-------------------------:|:-------------------------:
+![alt text](https://github.com/Kalamojo/Some-Context-Please/blob/main/images/politics_sarcastic.png?raw=true) | ![alt text](https://github.com/Kalamojo/Some-Context-Please/blob/main/images/politics_sincere.png?raw=true)
 
 To help combat this reality, we provide our model with that much needed context in the form of the title a comment is replying to. Furthermore, we limit predictions to one subject area (politics) to ensure that subjects and phrases specific to that area are known by the model.
 With this setup, our hope is that our model will be able to vary its confidence in sarcasm depending on the title a comment is made on. Serious titles will likely have more serious comments, and laughable titles will most likely be replied to with more sarcastic comments. This makes our data much closer to real-world situations, as opposed to expecting a model to determine sarcasm on a sentence alone.
