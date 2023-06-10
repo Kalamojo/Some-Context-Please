@@ -24,7 +24,7 @@ As a result of the nature of sarcastic text, identical sentences made in differe
 > Word cloud from r/politics comments
 
 
-Politics Sarcastic         |  Politics Sincere
+Word cloud from r/politics
 :-------------------------:|:-------------------------:
 ![alt text](https://github.com/Kalamojo/Some-Context-Please/blob/main/images/politics_sarcastic.png?raw=true) | ![alt text](https://github.com/Kalamojo/Some-Context-Please/blob/main/images/politics_sincere.png?raw=true)
 
