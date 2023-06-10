@@ -1,6 +1,8 @@
 # Some Context, Please?
 
-Sarcasm Detection Model (the Demo of which can be found [HERE](https://some-context-please.streamlit.app/))
+Sarcasm Detection Model
+
+> The Demo of the 2D Basic and LSTM models can be found at https://some-context-please.streamlit.app/
 
 ## Background
 
