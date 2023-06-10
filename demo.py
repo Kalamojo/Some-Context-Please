@@ -13,6 +13,7 @@ with open('tokenizers/LSTM_tokenizer.pickle', 'rb') as handle:
     token2 = pickle.load(handle)
 
 st.title("Sarcasm Detection Model")
+st.markdown("> From https://github.com/Kalamojo/Some-Context-Please")
 st.write("Enter a title with a reply and I'll tell you something interesting:")
 
 input_1 = st.text_input("Title of Post")
