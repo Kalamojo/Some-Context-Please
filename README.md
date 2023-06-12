@@ -27,11 +27,11 @@ As a result of the nature of sarcastic text, identical sentences made in differe
 
 r/politics Sarcastic         |  r/politics Sincere
 :---------------------------:|:---------------------------:
-![alt text](https://github.com/Kalamojo/Some-Context-Please/blob/main/images/politics_sarcastic.png?raw=true) | ![alt text](https://github.com/Kalamojo/Some-Context-Please/blob/main/images/politics_sincere.png?raw=true)
+![r/politics sarcastic comments word cloud](https://github.com/Kalamojo/Some-Context-Please/blob/main/images/politics_sarcastic.png?raw=true) | ![r/politics sincer comments word cloud](https://github.com/Kalamojo/Some-Context-Please/blob/main/images/politics_sincere.png?raw=true)
 
 r/ProgrammerHumor Sarcastic     |  r/ProgrammerHumor Sincere
 :------------------------------:|:------------------------------:
-![alt text](https://github.com/Kalamojo/Some-Context-Please/blob/main/images/ProgrammerHumor_sarcastic.png?raw=true) | ![alt text](https://github.com/Kalamojo/Some-Context-Please/blob/main/images/ProgrammerHumor_sincere.png?raw=true)
+![r/ProgrammerHumor sarcastic comments word cloud](https://github.com/Kalamojo/Some-Context-Please/blob/main/images/ProgrammerHumor_sarcastic.png?raw=true) | ![r/ProgrammerHumor sincere comments word cloud](https://github.com/Kalamojo/Some-Context-Please/blob/main/images/ProgrammerHumor_sincere.png?raw=true)
 
 To help combat this reality, we provide our model with that much needed context in the form of the title a comment is replying to. Furthermore, we limit predictions to one subject area (politics) to ensure that subjects and phrases specific to that area are known by the model.
 With this setup, our hope is that our model will be able to vary its confidence in sarcasm depending on the title a comment is made on. Serious titles will likely have more serious comments, and laughable titles will most likely be replied to with more sarcastic comments. This makes our data much closer to real-world situations, as opposed to expecting a model to determine sarcasm on a sentence alone.
@@ -74,7 +74,7 @@ Just Comment | LSTM | 0.994 | 0.926 | 0.921 | 0.565
 
 2D Basic Model | 2D LSTM Model
 :-------------:|:------------:
-![alt text](https://github.com/Kalamojo/Some-Context-Please/blob/main/images/basic_model_training.png?raw=true) | ![alt text](https://github.com/Kalamojo/Some-Context-Please/blob/main/images/LSTM_model_training.png?raw=true)
+![Training and validation loss/accuracy for basic model](https://github.com/Kalamojo/Some-Context-Please/blob/main/images/basic_model_training.png?raw=true) | ![Training and validation loss/accuracy for LSTM model](https://github.com/Kalamojo/Some-Context-Please/blob/main/images/LSTM_model_training.png?raw=true)
 
 ## Areas of Improvement
 
